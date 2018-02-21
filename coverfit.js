@@ -1,4 +1,4 @@
-const CoverFit = (() => {
+const CoverFit = (($) => {
 
   /**
  * ------------------------------------------------------------------------
@@ -180,4 +180,6 @@ const CoverFit = (() => {
 
   return CoverFit;
 
-})($);
+})(jQuery);
+
+export default CoverFit;
